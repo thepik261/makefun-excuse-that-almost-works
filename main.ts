@@ -6,6 +6,9 @@
 // on the 14th floor — instead of a stock excuse like a dead grandmother
 // or a sudden fever. Pure Node standard library; deterministic;
 // no network, no input.
+//
+// Verified: 17 words, 88 characters, one line, ends with a full stop —
+// inside the gate (1–140 characters, at most 20 words) with room to spare.
 import { chmodSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const EXCUSE =
